@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./assets/css/Romboedro.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="btn-form">
+                <a href="#"><i class="bi bi-circle-fill"></i></a>
+                <a href="#"><i class="bi bi-triangle-fill"></i></a>
+                <a href="#"><i class="bi bi-square-fill"></i></a>
+            </div>
+
+            <div class="logo">
+                <h1>Portal das Formas</h1>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <article class="main-cube">
+            <section id="calcAreaRomboedro">
+                <form id="form">
+                    <h1 id="title">
+                        Área do Romboedro:
+                    </h1>
+    
+                    <div class="input-box">
+                        <label for="a">
+                            Digite o valor de a:
+                        </label>
+                        <div class="input-field">
+                            <input type="number"  id="a" required>
+                        </div>
+                    </div>
+    
+                    <div class="input-box">
+                        <label for="b">
+                            Digite o valor de b:
+                        </label>
+                        <div class="input-field">
+                            <input type="number"  id="b" required>
+                        </div>
+                    </div>
+    
+                    <div class="input-box">
+                        <label for="c">
+                            Digite o valor de c:
+                        </label>
+                        <div class="input-field">
+                            <input type="number"  id="c" required>
+                        </div>
+                    </div>
+    
+                    <div id="infos">
+                        <div id="result">
+                            <div id="arearomboedro">
+                                <span id="value"></span>
+                                <span> A área é:</span>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <button id="calculate" onclick="calcularRomboedro()">
+                        Calcular
+                    </button>
+                </form>
+            </section>
+        </article>
+    </main>
+    
+
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
